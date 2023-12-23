@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHomework.Core", "WebApiHomework.Core\WebApiHomework.Core.csproj", "{0A072124-0320-414D-AFA9-90AB8B439B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHomework.ApiBuilder", "WebApiHomework.ApiBuilder\WebApiHomework.ApiBuilder.csproj", "{3D6BBBB4-CF72-458E-BF5E-6E0F36CE5CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHomework.Api", "WebApiHomework.Api\WebApiHomework.Api.csproj", "{6191FBE4-4EC1-4C77-83F7-9CF3472D84D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHomework.Tests", "WebApiHomework.Tests\WebApiHomework.Tests.csproj", "{2DF2629F-8059-4508-A406-260D3FCE1955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A072124-0320-414D-AFA9-90AB8B439B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A072124-0320-414D-AFA9-90AB8B439B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A072124-0320-414D-AFA9-90AB8B439B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A072124-0320-414D-AFA9-90AB8B439B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6BBBB4-CF72-458E-BF5E-6E0F36CE5CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6BBBB4-CF72-458E-BF5E-6E0F36CE5CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6BBBB4-CF72-458E-BF5E-6E0F36CE5CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6BBBB4-CF72-458E-BF5E-6E0F36CE5CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6191FBE4-4EC1-4C77-83F7-9CF3472D84D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6191FBE4-4EC1-4C77-83F7-9CF3472D84D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6191FBE4-4EC1-4C77-83F7-9CF3472D84D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6191FBE4-4EC1-4C77-83F7-9CF3472D84D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF2629F-8059-4508-A406-260D3FCE1955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF2629F-8059-4508-A406-260D3FCE1955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF2629F-8059-4508-A406-260D3FCE1955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF2629F-8059-4508-A406-260D3FCE1955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
