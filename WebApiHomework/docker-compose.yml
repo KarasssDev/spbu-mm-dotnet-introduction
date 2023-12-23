@@ -1,0 +1,8 @@
+services:
+  weather-api:
+    build: .
+    restart: always
+    env_file:
+      - ./weather-api.env
+    ports:
+      - 80:80
