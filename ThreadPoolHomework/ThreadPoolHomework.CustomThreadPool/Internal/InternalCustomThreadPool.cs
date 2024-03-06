@@ -183,5 +183,6 @@ internal class InternalCustomThreadPool : IDisposable
         {
             thread.Join();
         }
+        _customTaskChannel.Dispose();
     }
 }

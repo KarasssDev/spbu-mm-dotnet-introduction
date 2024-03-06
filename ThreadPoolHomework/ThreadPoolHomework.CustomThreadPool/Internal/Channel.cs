@@ -2,7 +2,7 @@ using System.Collections.Concurrent;
 
 namespace ThreadPoolHomework.CustomThreadPool.Internal;
 
-internal class Channel<T>
+internal class Channel<T>: IDisposable
 {
     private readonly ConcurrentQueue<T> _queue = new();
     private readonly Semaphore _semaphore = new(0, 1);
@@ -34,5 +34,10 @@ internal class Channel<T>
                 throw new Exception("Read from empty channel");
             }
         }
+    }
+
+    public void Dispose()
+    {
+        _semaphore.Dispose();
     }
 }
