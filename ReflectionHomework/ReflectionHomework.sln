@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ReflectionHomework.ReflectionAccess", "ReflectionHomework.ReflectionAccess\ReflectionHomework.ReflectionAccess.fsproj", "{480D3394-6807-4644-B094-52FD2BF9C427}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ReflectionHomework.Tests", "ReflectionHomework.Tests\ReflectionHomework.Tests.fsproj", "{9CE29C76-A62A-41AD-A2D9-AB0CC8D20C57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{480D3394-6807-4644-B094-52FD2BF9C427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480D3394-6807-4644-B094-52FD2BF9C427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480D3394-6807-4644-B094-52FD2BF9C427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480D3394-6807-4644-B094-52FD2BF9C427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE29C76-A62A-41AD-A2D9-AB0CC8D20C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE29C76-A62A-41AD-A2D9-AB0CC8D20C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE29C76-A62A-41AD-A2D9-AB0CC8D20C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE29C76-A62A-41AD-A2D9-AB0CC8D20C57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
